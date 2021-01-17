@@ -11,7 +11,7 @@ body {
   padding: 0 16px;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
 
@@ -22,16 +22,16 @@ body {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-.header ul {
+header ul {
   list-style-type: none;
   display: inline;
 }
 
-.header li {
+header li {
   float: left;
 }   
 
-.header a {
+header a {
   color: #5c275c;
   font-size: 20px;
   display: block;
@@ -39,10 +39,22 @@ body {
   text-decoration: none;
 }
 
-.header a:hover {
+header a:hover {
   background-color: #e0c1e0;
 }
 
 .login-button {
     background-color: #d180d1;
+}
+
+
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    color: #5c275c;
+    text-shadow: 1px 1px #9e9b9b;
 }
